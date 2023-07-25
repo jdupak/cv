@@ -1,6 +1,6 @@
 // Style
 
-#let large(content)
+#let large(content) = text(size: 1.5em, weight: "bold", content)
 
 // Items
 
