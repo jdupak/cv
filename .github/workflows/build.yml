@@ -12,11 +12,13 @@ jobs:
         with:
           source_file: main.typ
           
+      - run: mv main.pdf cv-jakubdupak.pdf
+          
       - name: Upload PDF file
         uses: actions/upload-artifact@v3
         with:
           name: PDF
-          path: main.pdf
+          path: cv-jakubdupak.pdf
 
       - name: Get current date
         id: date
