@@ -161,9 +161,8 @@
 
 = Programming Languages
 #plain[
-    *Regular Use:* C++, Python, C \
-    *Good Knowledge:* Rust, JavaScript \
-    *Nontrivial Project:* Zig, Kotlin, SystemVerilog, Lisp (R5RS, Racket), RISC-V assembly, PowerShell, Bash, Fish
+    *Regular Use:* C++, Rust, Python, C \
+    *Nontrivial Project:* JavaScript, Zig, Kotlin, SystemVerilog, Lisp (R5RS, Racket), RISC-V assembly, PowerShell, Bash, Fish
 ]
 
 = Technical Interests
