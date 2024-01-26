@@ -10,59 +10,24 @@
     doc
 )
 
-= Education 
-#chronological(((
-    start: "07/2021",
-    end: "present",
-    title: "Masters's Degree",
-    note: "(expected)",
-    location: [ 
-        Czech Technical University in Prague, Czech Republic \ 
-        Faculty of Electrical Enginnering
-    ],
-    content: [
-        Open Informatics -- Computer Engineering
-    ],
-),(
-    start: "02/2022",
-    end: "07/2022",
-    title: "Exchange Program",
-    location: [ 
-        Tel Aviv University, Israel
-    ],
-),(
-    start: "06/2018",
-    end: "06/2021",
-    title: "Bachelor's Degree",
-    note: "with honours",
-    location: [ 
-        Czech Technical University in Prague, Czech Republic \ 
-        Faculty of Electrical Enginnering
-    ],
-    content: [
-        Open Informatics -- Computer Science and AI
+= Contribution
+#plain[
+    *Rust GCC:* _ https://github.com/Rust-GCC/gccrs _
 
-        #parbreak()
-
-        *Thesis:* Graphical RISC-V Architecture Simulator \
-        Transformation of existing open source MIPS simulator to RISC-V architecture to support a switch of computer architecture courses to RISC-V. \
-        Received dean's award for an extraordinary thesis.\
-        Thesis (English): #link("https://jakubdupak.com/thesis") \
-        Source code: #link("https://github.com/cvut/qtrvsim")
-    ],
-),))
+    *QtRvSim:* _ https://github.com/cvut/qtrvsim _
+]
 
 = Work
 #chronological((
     (
         start: "9/2021",
         end: "present",
-        title: "Teaching Assistant",
-        location: "Faculty of Electrical Enginnering, CTU in Prague",
+        title: "External Teacher",
+        location: "Faculty of Electrical Engineering, CTU in Prague",
         content: [
             - Algorithms (_winter 2023/2024_)
             - Computer Architectures (_summer 2022/2023_)
-            - Procedural Programming (C; _winter 2021/2022--2023/2024_)
+            - Procedural Programming (C lang; _winter 2021/2022--2023/2024_)
         ]
     ),
     (
@@ -70,17 +35,16 @@
         end: "11/2022",
         title: "Collaborator/Developer",
         content: [
-	        Developement of QtRVSim, computer architecture simulator for education, and its presentation on various conferences and meetings
+	        Development of QtRVSim, computer architecture simulator for education, and its presentation on various conferences and meetings
         ]
     ),
     (
-        start: "9/2020",
-        end: "present",
+        start: "09/2020",
+        end: "01/2021",
         title: "Tutor",
         note: "Problem Solving and other Games",
-        location: "Faculty of Electrical Enginnering, CTU in Prague",
+        location: "Faculty of Electrical Engineering, CTU in Prague",
         content: [
-            Additional consultation for first year bachelor students
         ]
     ),
     (
@@ -90,13 +54,53 @@
         note: "(part-time)",
         location: "PragueBest s.r.o."
     ),
-    (
-        start: "07/2015",
-        end: "08/2015",
-        title: "IT Technician's Assistant",
-        location: "Elementary School Kunratice",
-    ),
 ))
+
+= Education 
+#chronological(((
+    start: "07/2021",
+    end: "present",
+    title: "Masters's Degree",
+    note: "(expected 02/2024)",
+    location: [ 
+        Czech Technical University in Prague, Czech Republic \ 
+        Faculty of Electrical Engineering
+    ],
+    content: [
+        Open Informatics -- Computer Engineering
+        
+        *Thesis (to be defended):*  Memory Safety Analysis in Rust GCC
+
+        Initial effort to implement a borrow-checker for Rust GCC using the Polonius project
+    ],
+),(
+    start: "02/2022",
+    end: "07/2022",
+    title: "Exchange Program",
+    location: [ 
+        Tel Aviv University, Israel
+    ],
+    note: "Computer Science"
+),(
+    start: "06/2018",
+    end: "06/2021",
+    title: "Bachelor's Degree",
+    note: "with honours",
+    location: [ 
+        Czech Technical University in Prague, Czech Republic \ 
+        Faculty of Electrical Engineering
+    ],
+    content: [
+        Open Informatics -- Computer Science and AI
+
+        #parbreak()
+
+        *Thesis:* Graphical RISC-V Architecture Simulator \
+        Received dean's award for an extraordinary thesis.\
+        Thesis (English): #link("https://jakubdupak.com/thesis") \
+        Source code: #link("https://github.com/cvut/qtrvsim")
+    ],
+),))
 
 = Publications
 #plain[
@@ -135,6 +139,12 @@
 = Volunteering
 #chronological((
     (
+        start: "07/2023",
+        end: "present",
+        title: "Humanitarian Unit Member & First-Aider & Volunteer",
+        location: "Czech Red Cross",
+    ),
+    (
         start: "04/2020",
         end: "05/2020",
         title: "Code In Place -- Section Leader",
@@ -145,8 +155,15 @@
 = Language Skills
 #plain[
     *Czech*: native \
-    *English*: advanced (estimated C1), experience with advanced computer science and math resources, teaching experience, bachelor's thesis text, taken multiple university courses in English, 5 months living abroad \
+    *English*: advanced (estimated C1) \
     *German*: estimated B2 \
+]
+
+= Programming Languages
+#plain[
+    *Regular Use:* C++, Python, C \
+    *Good Knowledge:* Rust, JavaScript \
+    *Nontrivial Project:* Zig, Kotlin, SystemVerilog, Lisp (R5RS, Racket), RISC-V assembly, PowerShell, Bash, Fish
 ]
 
 = Technical Interests
