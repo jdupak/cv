@@ -10,9 +10,10 @@
     doc
 )
 
-= Contribution
+= Contributions
 #plain[
-    *Rust GCC:* _ https://github.com/Rust-GCC/gccrs _
+    *Rust GCC:* _ https://github.com/Rust-GCC/gccrs _ \
+    
 
     *QtRvSim:* _ https://github.com/cvut/qtrvsim _
 ]
@@ -20,8 +21,8 @@
 = Work
 #chronological((
     (
-        start: "9/2021",
-        end: "present",
+        start: "09/2021",
+        end: "02/2024",
         title: "External Teacher",
         location: "Faculty of Electrical Engineering, CTU in Prague",
         content: [
@@ -34,8 +35,10 @@
         start: "07/2022",
         end: "11/2022",
         title: "Collaborator/Developer",
+        note: "QtRvSim",
+        location: "Department of Control Engineering, FEE, CTU in Prague",
         content: [
-	        Development of QtRVSim, computer architecture simulator for education, and its presentation on various conferences and meetings
+            Development and propagation of RISC-V graphical simulator.
         ]
     ),
     (
@@ -50,7 +53,7 @@
     (
         start: "09/2016",
         end: "12/2022",
-        title               : "Front-End Web Developer",
+        title: "Front-End Web Developer",
         note: "(part-time)",
         location: "PragueBest s.r.o."
     ),
@@ -59,19 +62,19 @@
 = Education 
 #chronological(((
     start: "07/2021",
-    end: "present",
+    end: "02/2024",
     title: "Masters's Degree",
-    note: "(expected 02/2024)",
+    note: "with honours",
     location: [ 
-        Czech Technical University in Prague, Czech Republic \ 
-        Faculty of Electrical Engineering
+        Faculty of Electrical Engineering, CTU in Prague
     ],
     content: [
         Open Informatics -- Computer Engineering
-        
-        *Thesis (to be defended):*  Memory Safety Analysis in Rust GCC
 
-        Initial effort to implement a borrow-checker for Rust GCC using the Polonius project
+        *Thesis:*  Memory Safety Analysis in Rust GCC \
+        Borrow-checker for Rust GCC using the Polonius project.
+
+        Available at #link("https://jakubdupak.com/msc-thesis", "jakubdupak.com/msc-thesis")
     ],
 ),(
     start: "02/2022",
@@ -87,8 +90,7 @@
     title: "Bachelor's Degree",
     note: "with honours",
     location: [ 
-        Czech Technical University in Prague, Czech Republic \ 
-        Faculty of Electrical Engineering
+        Faculty of Electrical Engineering, CTU in Prague
     ],
     content: [
         Open Informatics -- Computer Science and AI
@@ -96,11 +98,13 @@
         #parbreak()
 
         *Thesis:* Graphical RISC-V Architecture Simulator \
-        Received dean's award for an extraordinary thesis.\
-        Thesis (English): #link("https://jakubdupak.com/thesis") \
-        Source code: #link("https://github.com/cvut/qtrvsim")
+        Received dean's award for an extraordinary thesis.
+
+        Available at #link("https://jakubdupak.com/thesis", "jakubdupak.com/thesis") \
     ],
 ),))
+
+#pagebreak(weak: true)
 
 = Publications
 #plain[
@@ -116,7 +120,8 @@
         date: "02/2023",
         title: "FOSDEM 2023 Speaker",
         location: "Brussels",
-        content: [ QtRVSim—Education from Assembly to Pipeline, Cache Performance, and C Level Programming ]
+        content: [ QtRVSim—Education from Assembly to Pipeline, Cache Performance, and C Level Programmin
+        g ]
     ),
     (
         date: "11/2022",
@@ -141,7 +146,7 @@
     (
         start: "07/2023",
         end: "present",
-        title: "Humanitarian Unit Member & First-Aider & Volunteer",
+        title: "Humanitarian Unit Member",
         location: "Czech Red Cross",
     ),
     (
@@ -152,26 +157,27 @@
     ),
 ))
 
-= Language Skills
+= Human Languages
 #plain[
     *Czech*: native \
-    *English*: advanced (estimated C1) \
-    *German*: estimated B2 \
+    *English*: advanced \
+    *German*: intermediate \
 ]
 
 = Programming Languages
 #plain[
-    *Regular Use:* C++, Rust, Python, C \
+    *Regular Use:* C++, Rust, Python, C, \
     *Nontrivial Project:* JavaScript, Zig, Kotlin, SystemVerilog, Lisp (R5RS, Racket), RISC-V assembly, PowerShell, Bash, Fish
 ]
 
 = Technical Interests
 #plain[
-    compilers, high-performance programming, computer architectures, operating systems, functional programming, programming languages, Rust, Zig
+    compilers, programming languages, high-performance programming, computer architectures, operating systems, Rust, Zig
 ]            
 
 = Links
 #plain[
     *GitHub*: #link("https://github.com/jdupak",  "github.com/jdupak") \
-    *LinkedIn*: #link("https://www.linkedin.com/in/jakub-dupak/", "linkedin.com/in/jakub-dupak/")
+    *LinkedIn*: #link("https://www.linkedin.com/in/jakub-dupak/", "linkedin.com/in/jakub-dupak/") \
+    *ORCID*: #link("https://orcid.org/0000-0002-7876-8883", "0000-0002-7876-8883")
 ]
