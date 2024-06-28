@@ -10,16 +10,28 @@
     doc
 )
 
-= Contributions
-#plain[
-    *Rust GCC:* _ https://github.com/Rust-GCC/gccrs _ \
-    
-
-    *QtRvSim:* _ https://github.com/cvut/qtrvsim _
-]
-
 = Work
 #chronological((
+    (
+        start: "05/2024",
+        end: "present",
+        title: "Software Engineer",
+        note: " ",
+        location: "Microsoft",
+        content: [
+            Contributing to the design and implementation of Rust compiler front-ends, back-ends, and analysis tools.
+        ]
+    ),
+    (
+        start: "03/2024",
+        end: "04/2024",
+        title: "Guest Lecturer",
+        location: "Luleå University of Technology",
+        note: "Microcomputer engineering with space applications",
+        content: [
+            Teaching the computer achitecture principles segment.
+        ]
+    ),
     (
         start: "09/2021",
         end: "02/2024",
@@ -28,17 +40,17 @@
         content: [
             - Algorithms (_winter 2023/2024_)
             - Computer Architectures (_summer 2022/2023_)
-            - Procedural Programming (C lang; _winter 2021/2022--2023/2024_)
+            - Procedural Programming (_winter 2021/2022--2023/2024_)
         ]
     ),
     (
         start: "07/2022",
         end: "11/2022",
-        title: "Collaborator/Developer",
-        note: "QtRvSim",
-        location: "Department of Control Engineering, FEE, CTU in Prague",
+        title: "Collaborator",
+        note: "Department of Control Engineering",
+        location: "Faculty of Electrical Engineering, CTU in Prague",
         content: [
-            Development and propagation of RISC-V graphical simulator.
+            Development and propagation of RISC-V graphical simulator QtRvSim.
         ]
     ),
     (
@@ -48,6 +60,7 @@
         note: "Problem Solving and other Games",
         location: "Faculty of Electrical Engineering, CTU in Prague",
         content: [
+            Additional consulatitons.
         ]
     ),
     (
@@ -71,10 +84,11 @@
     content: [
         Open Informatics -- Computer Engineering
 
-        *Thesis:*  Memory Safety Analysis in Rust GCC \
-        Borrow-checker for Rust GCC using the Polonius project.
-
-        Available at #link("https://jakubdupak.com/msc-thesis", "jakubdupak.com/msc-thesis")
+        *Thesis:*  _Memory Safety Analysis in Rust GCC._ \
+        An initial effort to enable borrow checking in the Rust GCC compiler. The project included design and implementation of a new MIR-like IR, lifetime handling throughout the compilation, and extraction of facts for the borrowchecker computation using the borrowchecker engine. All the changes are part of upstream GCC. 
+        
+        Available at: _#link("https://jakubdupak.com/msc-thesis", "jakubdupak.com/msc-thesis")_ \
+        Received _Dean’s Award for an Extraordinary Thesis_. \
     ],
 ),(
     start: "02/2022",
@@ -95,16 +109,17 @@
     content: [
         Open Informatics -- Computer Science and AI
 
-        #parbreak()
+        *Thesis:* _Graphical RISC-V Architecture Simulator_ \
 
-        *Thesis:* Graphical RISC-V Architecture Simulator \
-        Received dean's award for an extraordinary thesis.
-
-        Available at #link("https://jakubdupak.com/thesis", "jakubdupak.com/thesis") \
+        Available at: #link("https://jakubdupak.com/thesis", "jakubdupak.com/thesis") \
+        Received _Dean’s Award for an Extraordinary Thesis_. \
     ],
 ),))
 
-#pagebreak(weak: true)
+= Contributions
+#plain[
+    *Rust GCC*, *QtRvSim*
+]
 
 = Publications
 #plain[
@@ -120,8 +135,7 @@
         date: "02/2023",
         title: "FOSDEM 2023 Speaker",
         location: "Brussels",
-        content: [ QtRVSim—Education from Assembly to Pipeline, Cache Performance, and C Level Programmin
-        g ]
+        content: [ QtRVSim—Education from Assembly to Pipeline, Cache Performance, and C Level Programming ]
     ),
     (
         date: "11/2022",
@@ -159,15 +173,13 @@
 
 = Human Languages
 #plain[
-    *Czech*: native \
-    *English*: advanced \
-    *German*: intermediate \
+    *Czech* (native), *English* (advanced), *German* (intermediate)
 ]
 
 = Programming Languages
 #plain[
-    *Regular Use:* C++, Rust, Python, C, \
-    *Nontrivial Project:* JavaScript, Zig, Kotlin, SystemVerilog, Lisp (R5RS, Racket), RISC-V assembly, PowerShell, Bash, Fish
+    *Regular Use:* C++, Rust, Python, C, PowerShell, x64 assembly \
+    *Other:* JavaScript, Zig, Kotlin, SystemVerilog, Lisp (R5RS, Racket), RISC-V assembly, Bash, Fish
 ]
 
 = Technical Interests
