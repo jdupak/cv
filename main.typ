@@ -23,6 +23,20 @@
         ]
     ),
     (
+        start: "09/2021",
+        end: "present",
+        title: "External Teacher",
+        location: "Faculty of Electrical Engineering, CTU in Prague",
+        content: [
+            Leading practical labs and helping with examination.
+
+            - Parallel and Distributed Computing (parallel segment) (_summer 2024/2025_)
+            - Algorithms (_winter 2023/2024_)
+            - Computer Architectures (_summer 2022/2023_)
+            - Procedural Programming (C) (_winter 2021/2022--2024/2025_)
+        ]
+    ),
+    (
         start: "05/2024",
         end: "02/2025",
         title: "Software Engineer",
@@ -37,21 +51,7 @@
         location: "Luleå University of Technology",
         note: "Microcomputer engineering with space applications",
         content: [
-            Teaching the computer achitecture principles segment.
-        ]
-    ),
-    (
-        start: "09/2021",
-        end: "02/2024",
-        title: "External Teacher",
-        location: "Faculty of Electrical Engineering, CTU in Prague",
-        content: [
-            Leading practical labs and helping with examination.
-
-            - Parallel and Distributed Computing (parallel segment) (_summer 2024/2025_)
-            - Algorithms (_winter 2023/2024_)
-            - Computer Architectures (_summer 2022/2023_)
-            - Procedural Programming (C) (_winter 2021/2022--2024/2025_)
+            // Teaching the computer achitecture principles segment.
         ]
     ),
     (
@@ -77,7 +77,8 @@
         end: "12/2022",
         title: "Front-End Web Developer",
         note: "(part-time)",
-        location: "PragueBest s.r.o."
+        location: "PragueBest s.r.o.",
+        content: []
     ),
 ))
 
@@ -94,7 +95,7 @@
         Open Informatics -- Computer Engineering
 
         *Thesis:*  _Memory Safety Analysis in Rust GCC._ \
-        An initial effort to enable borrow checking in the Rust GCC compiler. The project included design and implementation of a new MIR-like IR, lifetime handling throughout the compilation, and extraction of facts for the borrowchecker computation using the borrowchecker engine. All the changes are part of upstream GCC. 
+        // An initial effort to enable borrow checking in the Rust GCC compiler. The project included design and implementation of a new MIR-like IR, lifetime handling throughout the compilation, and extraction of facts for the borrowchecker computation using the borrowchecker engine. All the changes are part of upstream GCC. 
         
         Available at: _#link("https://jakubdupak.com/msc-thesis", "jakubdupak.com/msc-thesis")_ \
         Received _Dean’s Award for an Extraordinary Thesis_. \
@@ -106,7 +107,8 @@
     location: [ 
         Tel Aviv University, Israel
     ],
-    note: "Computer Science"
+    note: "Computer Science",
+    content: []
 ),(
     start: "06/2018",
     end: "06/2021",
@@ -127,7 +129,8 @@
 
 = Contributions
 #plain[
-    *Rust GCC*, *QtRvSim*
+    - *Rust GCC*
+    - *QtRvSim*
 ]
 
 = Publications
@@ -177,12 +180,14 @@
         end: "present",
         title: "Humanitarian Unit Member",
         location: "Czech Red Cross",
+        content: []
     ),
     (
         start: "04/2020",
         end: "05/2020",
         title: "Code In Place -- Section Leader",
         location: "Stanford University",
+        content: []
     ),
 ))
 

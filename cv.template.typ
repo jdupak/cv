@@ -15,7 +15,7 @@
                 block(inset: (bottom: 5pt,))[
                     *#e.title* #e.at("note", default: "") \
                     _#e.at("location", default: "")_
-                    #parbreak()
+                    #v(12pt, weak: true)
                     #e.at("content", default: "")
                 ]
             }
@@ -27,12 +27,12 @@
     grid(
         columns: (40pt, 1fr),
         column-gutter: 35pt,
-        row-gutter: 16pt,
+        row-gutter: 8pt,
         ..entries.map(e => (
             emph[ #e.date ],
             {
                 block(inset: (bottom: 5pt,))[
-                    *#e.title* \ #e.at("note", default: "")_#e.at("location", default: "")_
+                    *#e.title* #e.at("location", default: "")
                     #parbreak()
                     #e.at("content", default: "")
                 ]
