@@ -13,14 +13,22 @@
 = Work
 #chronological((
     (
-        start: "05/2024",
+        start: "03/2025",
         end: "present",
-        title: "Software Engineer",
-        note: " ",
+        title: "Software Engineer II",
+        note: "Rust Tooling Group at MDCP",
         location: "Microsoft",
         content: [
             Contributing to the design and implementation of Rust compiler front-ends, back-ends, and analysis tools.
         ]
+    ),
+    (
+        start: "05/2024",
+        end: "02/2025",
+        title: "Software Engineer",
+        note: "Rust Tooling Group at MDCP",
+        location: "Microsoft",
+        content: []
     ),
     (
         start: "03/2024",
@@ -38,9 +46,12 @@
         title: "External Teacher",
         location: "Faculty of Electrical Engineering, CTU in Prague",
         content: [
+            Leading practical labs and helping with examination.
+
+            - Parallel and Distributed Computing (parallel segment) (_summer 2024/2025_)
             - Algorithms (_winter 2023/2024_)
             - Computer Architectures (_summer 2022/2023_)
-            - Procedural Programming (_winter 2021/2022--2023/2024_)
+            - Procedural Programming (C) (_winter 2021/2022--2024/2025_)
         ]
     ),
     (
@@ -59,9 +70,7 @@
         title: "Tutor",
         note: "Problem Solving and other Games",
         location: "Faculty of Electrical Engineering, CTU in Prague",
-        content: [
-            Additional consulatitons.
-        ]
+        content: []
     ),
     (
         start: "09/2016",
@@ -131,6 +140,12 @@
 
 = Conferences
 #event((
+    (
+        date: "09/2024",
+        title: "GNU Tools Cauldron 2024 Talk",
+        location: "Prague",
+        content: [ Borrowing Polonius (Rust GCC) ]
+    ),
     (
         date: "02/2023",
         title: "FOSDEM 2023 Speaker",
