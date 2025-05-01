@@ -13,7 +13,7 @@ jobs:
           source_file: main.typ
           
       - name: Upload PDF file
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact
         with:
           name: PDF
           path: main.pdf
