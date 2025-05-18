@@ -8,7 +8,7 @@
         Prague, Czech Republic
     ],
     doc
-)
+) 
 
 = Work
 #chronological((
@@ -87,18 +87,17 @@
     start: "07/2021",
     end: "02/2024",
     title: "Masters's Degree",
-    note: "with honours",
+    note: "with honours, first in class",
     location: [ 
         Faculty of Electrical Engineering, CTU in Prague
     ],
     content: [
-        Open Informatics -- Computer Engineering
+        - Open Informatics -- Computer Engineering
 
-        *Thesis:*  _Memory Safety Analysis in Rust GCC._ \
+        *Thesis:*  _"Memory Safety Analysis in Rust GCC."_
         // An initial effort to enable borrow checking in the Rust GCC compiler. The project included design and implementation of a new MIR-like IR, lifetime handling throughout the compilation, and extraction of facts for the borrowchecker computation using the borrowchecker engine. All the changes are part of upstream GCC. 
-        
-        Available at: _#link("https://jakubdupak.com/msc-thesis", "jakubdupak.com/msc-thesis")_ \
-        Received _Dean’s Award for an Extraordinary Thesis_. \
+        - Available at _#link("https://jakubdupak.com/msc-thesis", "jakubdupak.com/msc-thesis")_ \
+        - Received _Dean’s Award for an Extraordinary Thesis_.
     ],
 ),(
     start: "02/2022",
@@ -118,19 +117,19 @@
         Faculty of Electrical Engineering, CTU in Prague
     ],
     content: [
-        Open Informatics -- Computer Science and AI
+        - Open Informatics -- Computer Science and AI
+        - Additional compiler-related classes at FIT CTU and MFF UK
 
-        *Thesis:* _Graphical RISC-V Architecture Simulator_ \
-
-        Available at: #link("https://jakubdupak.com/thesis", "jakubdupak.com/thesis") \
-        Received _Dean’s Award for an Extraordinary Thesis_. \
+        *Thesis:* _"Graphical RISC-V Architecture Simulator"_
+        - Available at: #link("https://jakubdupak.com/thesis", "jakubdupak.com/thesis")
+        - Received _Dean’s Award for an Extraordinary Thesis_.
     ],
 ),))
 
-= Contributions
+= Main Open Source Contributions
 #plain[
-    - *Rust GCC*
-    - *QtRvSim*
+    *Rust GCC*: #link("https://github.com/Rust-GCC/gccrs", "github.com/Rust-GCC/gccrs") \
+    *QtRvSim*: #link("https://github.com/cvut/qtrvsim", "github.com/cvut/qtrvsim")
 ]
 
 = Publications
@@ -151,13 +150,13 @@
     ),
     (
         date: "02/2023",
-        title: "FOSDEM 2023 Speaker",
+        title: "FOSDEM 2023 Talk",
         location: "Brussels",
         content: [ QtRVSim—Education from Assembly to Pipeline, Cache Performance, and C Level Programming ]
     ),
     (
         date: "11/2022",
-        title: "DevConf.CZ MINI Speaker",
+        title: "DevConf.CZ MINI Talk",
         location: "Brno",
         content: [
             QtRVSim - RISC-V Simulator for Computer Architectures Classes
@@ -165,7 +164,7 @@
     ),
     (
         date: "05/2022",
-        title: "Embedded World Conference 2022 Speaker",
+        title: "Embedded World Conference 2022 Talk",
         location: "Nuremberg",
         content: [
             QtRVSim - RISC-V Simulator for Computer Architectures Classes \            
@@ -175,6 +174,15 @@
 
 = Volunteering
 #chronological((
+    (
+        start: "01/2025",
+        end: "present",
+        title: "Student PL Meetup Organizer",
+        location: "Prague, Czech Republic",
+        content: [
+            - #link("https://github.com/prgprg-org/student-meetup", "github.com/prgprg-org/student-meetup") \
+        ]
+    ),
     (
         start: "07/2023",
         end: "present",
@@ -210,6 +218,7 @@
 = Links
 #plain[
     *GitHub*: #link("https://github.com/jdupak",  "github.com/jdupak") \
+    *Website*: #link("https://jakubdupak.com",  "jakubdupak.com") \
     *LinkedIn*: #link("https://www.linkedin.com/in/jakub-dupak/", "linkedin.com/in/jakub-dupak/") \
     *ORCID*: #link("https://orcid.org/0000-0002-7876-8883", "0000-0002-7876-8883")
 ]
