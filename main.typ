@@ -8,7 +8,7 @@
         Prague, Czech Republic
     ],
     doc
-) 
+)
 
 = Work
 #chronological((
@@ -25,11 +25,10 @@
     (
         start: "09/2021",
         end: "present",
-        title: "External Teacher",
+        title: "External Teacher/Lecturer",
         location: "Faculty of Electrical Engineering, CTU in Prague",
         content: [
-            Leading practical labs and helping with examination.
-
+            - Computer Systems (_winter 2024/2025_)
             - Parallel and Distributed Computing (parallel segment) (_summer 2024/2025_)
             - Algorithms (_winter 2023/2024_)
             - Computer Architectures (_summer 2022/2023_)
@@ -177,10 +176,10 @@
     (
         start: "01/2025",
         end: "present",
-        title: "Student PL Meetup Organizer",
+        title: "Student PL Meetup Lead Organizer",
         location: "Prague, Czech Republic",
         content: [
-            - #link("https://github.com/prgprg-org/student-meetup", "github.com/prgprg-org/student-meetup") \
+            - #link("https://student-meetup.prgprg.org", "student-meetup.prgprg.org") \
         ]
     ),
     (
